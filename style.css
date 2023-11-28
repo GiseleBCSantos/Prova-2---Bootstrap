@@ -32,6 +32,7 @@ body a:hover{
 
 
 
+
 .conteudo{
     padding: 20px;
     margin-top: 70px;
@@ -111,6 +112,12 @@ footer{
     height: 200px;
 }
 
+header img{
+    width: 80px;
+    height: 80px;
+    transform: rotate(10deg)
+}
+
 
 
 
@@ -138,15 +145,23 @@ footer{
         max-height: 45vh;
         position: inherit;
     } 
+
+    .buscar-google{
+        margin-right: 100px;
+    }
     
 
-    .navbar-collapse{
-        background-color: rgba(51, 77, 46, 0.705);
+    .navbar-collapse{       
+        background-color: #043414dc; 
         border-radius: 10px;
         padding: 10px;
     }
 
     nav, main, aside{
         margin-bottom: 10px;
+    }
+
+    .botao-buscar{
+        box-shadow: 2px 2px black;
     }
 }
