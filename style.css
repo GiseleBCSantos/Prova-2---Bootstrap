@@ -15,9 +15,6 @@ body a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     height: 162px;
-    width: 100vw;
-    position: fixed;
-    z-index: 1000;
 }
 
 
@@ -135,10 +132,6 @@ header img{
     background-image: url('./assets/header3.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 162px;
-    width: 100vw;
-    position: fixed;
-    z-index: 1000;
     }
 
     nav{
@@ -146,10 +139,6 @@ header img{
         position: inherit;
     } 
 
-    .buscar-google{
-        margin-right: 100px;
-    }
-    
 
     .navbar-collapse{       
         background-color: #043414dc; 
