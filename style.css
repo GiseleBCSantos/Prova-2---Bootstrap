@@ -28,6 +28,12 @@ body a:hover{
 }
 
 
+.botao-menu{
+    box-shadow: 2px 2px black;
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+
 
 
 .conteudo{
@@ -43,15 +49,17 @@ aside {
     max-height: 1200px;
 }
 
+
+
 nav{
-max-height: 29vh;
+max-height: 300px;
 border-radius: 10px;
 position: fixed;
 }
 
 @media (max-width: 767px){
     nav{
-    max-height: 50vh;
+    max-height: 400px;
     border-radius: 10px;
     position: inherit;
     margin-bottom: 10px;
@@ -161,4 +169,6 @@ ul{
     .botao-buscar{
         box-shadow: 2px 2px black;
     }
+
+
 }
